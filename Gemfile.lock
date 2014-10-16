@@ -29,6 +29,9 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     builder (3.2.2)
+    dotenv (1.0.2)
+    dotenv-rails (1.0.2)
+      dotenv (= 1.0.2)
     erubis (2.7.0)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
@@ -105,6 +108,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv-rails
   omniauth (~> 1.2.2)
   omniauth-stagebloc (~> 0.1.0)
   rails (= 4.1.5)
